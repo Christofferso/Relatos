@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner{
+  background-color: #C92A2A;
+  width: 48vw;
+  height: 100vh;
+}
+
+.communication{
+  padding-top: 300px;
+}
+
+.banner .communicationItem{
+  text-align: center;
+}
+
+.communicationItem {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+i{
+  color: #fff;
+}
+
+.form{
+  width: 49vw;
+  height: 100vh;
+}
+
+#dados-usuario{
+  text-align: center;
+}
+
+#dados-usuario button, #login-usuario-btn{
+  color: #044b78;
+  border-color:#044b78;;
+}
+
+#dados-usuario button:hover, #login-usuario-btn:hover{
+  color: #fff;
+  background-color:#044b78;
+  font-weight: bold;
+}
+
+.subscriptions{
+  margin: auto;
+  max-width: 800px;
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 50px;
+  color: #044b78;
+  font-weight: bold;
+}
+
+.subtitle{
+  text-align: center;
+  color: #044b78;
+  font-weight: bold;
+}
+
+.btn-outline-primary{
+  width: 250px;
+  font-weight: bold;
+}
+
+.btn-outline-success{
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.cadastro{
+  text-align: center;
+}
+
+  /* -- Media Queries -- */
+@media (max-width: 1280px){
+  .communication{
+    margin-top: -100px;
+  }
+}
+
+@media (max-width: 1024px){
+  .communication{
+    margin-top: -200px;
+  }
+}
+
+@media (max-width: 575px) {
+  body{
+    display: block;
+  }
+  
+  .banner{
+    width: 100vw;
+    height: 50vh;
+  }
+
+  .communication{
+    margin-top: -50px;
+  }
+  
+  .communicationItem img{
+    margin-top: -200px;
+  }
+
+  .communicationItem i{
+    margin-top: -70;
+  }
+
+  .form{
+    margin: auto;
+  }
+
+  .row{
+    margin-top: -80px;
+  }
+
+  }
+
+  @media (max-width: 540px){
+    .banner{
+      height: 60vh;
+    }
+  }
+  
+  @media (max-width: 414px){
+    .banner{
+      height: 45vh;
+    }
+
+    #dados-usuario{
+      margin-left: -45px;
+    }
+  }
+
+  @media (max-width: 412px){
+    .banner{
+      height: 50vh;
+    }
+  }
+
+  @media (max-width: 393px){
+    .banner{
+      height: 47vh;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .banner{
+      width: 105vw;
+      height: 60vh;
+    }
+
+    #dados-usuario{
+      margin-left: -50px;
+    }
+    
+  }
+
+  @media (max-width: 280px){
+    .banner{
+      width: 114vw;
+    }
+
+    #dados-usuario{
+      margin-left: -60px;
+    }
+  }
+
